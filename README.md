@@ -45,4 +45,4 @@ This project cleans and prepares raw data using Python, turning messy, inconsist
 
 ## 👨‍💻 Author
 **Lonali Ray**
-[LinkedIn](your-linkedin-link) | [GitHub](https://github.com/LonaliRay)
+[LinkedIn](https://www.linkedin.com/in/lonali-ray-48786b233/?isSelfProfile=true) | [GitHub](https://github.com/LonaliRay)
