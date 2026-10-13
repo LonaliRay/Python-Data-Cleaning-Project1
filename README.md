@@ -1,26 +1,34 @@
 # Python Data Cleaning Project
 
-## 📊 Project Overview
-This project cleans and prepares raw data using Python, turning messy, inconsistent records into a structured, analysis-ready dataset.
+## 📌 Project Overview
+This capstone project, part of the SkilloVilla Python Fundamentals course, applies data cleaning and manipulation techniques using Python, Pandas, and NumPy. It uses three related datasets (Project, Employee, and Seniority Level) to simulate a real-world project management scenario.
 
-**Business problem:** Raw data with missing values, duplicates and inconsistent formats cannot be used reliably for analysis or dashboards.
+The work includes handling missing values, splitting and merging data, calculating bonuses, updating designation levels, and filtering records.
 
 ## 🎯 Objectives
-- Handle missing values effectively
-- Remove duplicates and inconsistencies
-- Standardize data formats
-- Prepare clean data for analysis and visualization
-
+- Create DataFrames and save them as CSV files
+- Fill missing project costs using a running average
+- Split the Name column into First Name and Last Name
+- Merge all three DataFrames into one `Final` DataFrame
+- Calculate a 5% bonus for finished projects
+- Promote or demote designation levels based on project status and age
+- Calculate the total project cost per employee
+- Filter employees by city name
+- 
 ## 🛠️ Tools & Technologies
 - Python
 - Pandas
 - NumPy
 - Jupyter Notebook
-
-## 📂 Dataset
-- **Source:** [Dataset name and link]
-- **Size:** [X] rows × [X] columns
-- The dataset is hosted externally because of its file size: [download link]
+-
+-
+- ## 📁 Dataset
+- **Source:** Capstone Project – Python Fundamentals (SkilloVilla). Three tables (Project, Employee, Seniority Level) given in the project PDF and recreated manually as DataFrames, then saved as CSV files.
+- **Size:** 
+  - `project.csv` – 14 rows × 4 columns
+  - `employee.csv` – 5 rows × 5 columns
+  - `seniority.csv` – 5 rows × 2 columns
+- The dataset is small, so it is included directly in this repository (no external download needed).
 
 ## 🧹 Data Cleaning Steps
 1. Removed null and missing values
@@ -30,7 +38,8 @@ This project cleans and prepares raw data using Python, turning messy, inconsist
 5. Filtered irrelevant data
 
 ## 📸 Project Preview
-![Data cleaning preview](images/preview.png)
+![Data cleaning preview](<img width="974" height="520" alt="Capture 2" src="https://github.com/user-attachments/assets/e21d8426-d04b-48fb-a77f-43ba4b3e6160" />
+)
 
 ## 📈 Key Outcomes
 - Improved data quality and consistency
