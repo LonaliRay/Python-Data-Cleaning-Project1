@@ -42,10 +42,18 @@ The work includes handling missing values, splitting and merging data, calculati
 )
 
 ## 📈 Key Outcomes
-- Improved data quality and consistency
-- Created a structured dataset ready for analysis
-- Reduced errors and inconsistencies in the raw data
-- Before cleaning: [X] rows, [X] nulls, [X] duplicates. After cleaning: [X] rows, 0 nulls, 0 duplicates.
+## ✅ Key Outcomes
+- Created three DataFrames (Project, Employee, Seniority) and saved them as CSV files
+- Filled 2 missing `Cost` values (Project 5 and Project 9) with the average cost of ₹1,744,333.33 using a `for` loop
+- Split `Name` into `First Name` and `Last Name`
+- Merged all three DataFrames into one `Final` DataFrame (14 rows)
+- Added a `Bonus` column giving 5% of cost on finished projects
+- Demoted designation level by 1 for failed projects and removed records above level 4
+- Added "Mr."/"Mrs." titles to first names and dropped the `Gender` column
+- Promoted designation level by 1 for employees older than 29
+- Calculated total project cost per employee (`TotalProjCost`)
+- Filtered employees whose city contains "o" (London and Newyork)
+- Before cleaning: 14 rows, 2 nulls, 0 duplicates. After cleaning: 14 rows, 0 nulls, 0 duplicates.
 
 ## 🚀 Future Improvements
 - Automate the cleaning pipeline
