@@ -20,8 +20,9 @@ The work includes handling missing values, splitting and merging data, calculati
 - Pandas
 - NumPy
 - Jupyter Notebook
--
--
+
+
+
 - ## 📁 Dataset
 - **Source:** Capstone Project – Python Fundamentals (SkilloVilla). Three tables (Project, Employee, Seniority Level) given in the project PDF and recreated manually as DataFrames, then saved as CSV files.
 - **Size:** 
@@ -42,7 +43,7 @@ The work includes handling missing values, splitting and merging data, calculati
 )
 
 ## 📈 Key Outcomes
-## ✅ Key Outcomes
+
 - Created three DataFrames (Project, Employee, Seniority) and saved them as CSV files
 - Filled 2 missing `Cost` values (Project 5 and Project 9) with the average cost of ₹1,744,333.33 using a `for` loop
 - Split `Name` into `First Name` and `Last Name`
